@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Hello from './view/hello'
+
+
 ReactDOM.render(
-    <div>Hello React!</div>,
+    <Hello />,
     document.getElementById('app')
 )

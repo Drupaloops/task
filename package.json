@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack",
-    "dev-server": "node_modules/.bin/webpack-dev-server",
+    "dev-server": "node_modules/.bin/webpack-dev-server --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Drupaloops",
