@@ -9,7 +9,10 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, "dist")
+        contentBase: path.join(__dirname, "dist"),
+        // port: 9000, 
+        // open: true,
+        // host: '192.168.0.103'
     },
     module: {
         rules: [
