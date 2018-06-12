@@ -10,9 +10,9 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname, "dist"),
-        // port: 9000, 
+        // port: 9000,
         // open: true,
-        // host: '192.168.0.103'
+        historyApiFallback: true
     },
     module: {
         rules: [
