@@ -9,8 +9,8 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, "dist"),
-        // port: 9000,
+        contentBase: path.join(__dirname, 'dist'),
+        port: 9000,
         // open: true,
         historyApiFallback: true
     },
