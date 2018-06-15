@@ -1,7 +1,5 @@
-import { BrowserRouter, Route } from 'react-router-dom'
-
-import Hello from '../view/hello'
-
+import Hello from '../pages/hello'
+import About from '../pages/about'
 
 const routes = [
     {
@@ -15,10 +13,4 @@ const routes = [
     }
 ]
 
-
-const AppRouter = () => (
-    <BrowserRouter>
-        <Route path="/test" component={Hello} />
-    </BrowserRouter>
-)
-export default AppRouter
+export default routes
