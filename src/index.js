@@ -14,7 +14,7 @@ ReactDOM.render(
             {/* react-router 内只允许存在一个子元素，所以用div包裹 */}
             <ul>
                 <li><Link to="/">home</Link></li>
-                <li><Link to="/helo">helo</Link></li>
+                <li><Link to="/about">about</Link></li>
             </ul>
             { renderRoutes(routes) }
         </div>
