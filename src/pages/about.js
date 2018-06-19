@@ -33,7 +33,8 @@ class About extends React.Component {
                     {/* <path d="M120 30 
                         A90,90 0 1 1 120,210
                         A90,90 0 1 1 120,30
-                        M55 135 L100 180 190 90" id="mark" strokeWidth="4" stroke="blue" fill="none"/> */}
+                        M55 135 L100 180 190 90" id="mark" strokeWidth="4" stroke="blue" fill="none"/> 
+                        两个MoveTo会产生两个笔画同时开始*/}
                     <polyline id="success" points="55,135 100,180 190,90" strokeWidth="4" stroke="blue" fill="none"></polyline>
                 </svg>
             </div>
