@@ -1,15 +1,17 @@
 #progress {
     transform: rotate(-90deg);
     transform-origin: center;
-    stroke-dasharray: 70 565;
-    animation: loading 500ms linear infinite;
+    stroke-dasharray: 0 565;
+    animation: loading 1s linear;
 }
 @keyframes loading {
     from {
+        stroke-dasharray: 70 565;
         transform: rotate(-90deg);
     }
     to {
-        transform: rotate(270deg);
+        stroke-dasharray: 70 565;
+        transform: rotate(630deg);
     }
 }
 
@@ -17,7 +19,7 @@
     transform: rotate(-90.05deg);
     transform-origin: center;
     stroke-dasharray: 565;
-    animation: complete 1s linear forwards;
+    animation: complete 500ms 1s linear backwards;
 }
 
 @keyframes complete {
@@ -32,7 +34,7 @@
 #success {
     stroke-dasharray: 100%;
     stroke-dashoffset: 100%;
-    animation: success 1s 1s linear forwards;
+    animation: success 500ms 1500ms linear forwards;
 }
 
 @keyframes success {

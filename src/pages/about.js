@@ -20,15 +20,13 @@ class About extends React.Component {
                     </div>
                 </div>
                 <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
-                    <circle id="backdrop" r="90" cy="120" cx="120" strokeWidth="3" stroke="gray" fill="none"/>
+                    <circle id="backdrop" r="90" cy="120" cx="120" strokeWidth="3" stroke="#fff" fill="none"/>
                     <circle id="progress" r="90" cy="120" cx="120" strokeWidth="4" stroke="blue" fill="none"/>
-                </svg>
-                <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
-                    <circle id="background" r="90" cy="120" cx="120" strokeWidth="3" stroke="gray" fill="none"/>
                     <circle id="complete" r="90" cy="120" cx="120" strokeWidth="4" stroke="blue" fill="none"/>
+                    <polyline id="success" points="55,135 100,180 190,90" strokeWidth="4" stroke="blue" fill="none"></polyline>
                 </svg>
                 <svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
-                    <circle id="background" r="90" cy="120" cx="120" strokeWidth="3" stroke="gray" fill="none"/>
+                    <circle id="background" r="90" cy="120" cx="120" strokeWidth="3" stroke="#fff" fill="none"/>
                     <circle id="complete" r="90" cy="120" cx="120" strokeWidth="4" stroke="blue" fill="none"/>
                     {/* <path d="M120 30 
                         A90,90 0 1 1 120,210
