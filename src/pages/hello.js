@@ -3,7 +3,11 @@ import React from 'react'
 class Hello extends React.Component {
     render () {
         return (
-            <div>TODO mvc list</div>
+            <React.Fragment>
+                <h1>task center</h1>
+                {/* <Group /> */}
+                {/* <RiskList /> */}
+            </React.Fragment>
         )
     }
 }
