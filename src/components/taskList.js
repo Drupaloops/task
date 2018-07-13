@@ -5,7 +5,7 @@ export default class extends React.Component {
     render () {
         return (
             <div>
-                this is tasklist components
+                <p>task list</p>
             </div>
         )
     }
