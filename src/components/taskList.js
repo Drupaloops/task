@@ -1,11 +1,38 @@
 import React from 'react'
 
-export default class extends React.Component {
+function HOC(WrappedComponent){
+    return class HOC extends WrappedComponent {
+        
+        componentDidMount(){
+            this.setState({type: 'B'})
+        }
 
+        render(){
+            return (
+                <React.Fragment>
+                    { super.render() }
+                    1111
+                </React.Fragment>
+            )
+        }
+    }
+}
+
+
+@HOC
+export default class extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            type: 'A',
+            tableData: 'oo'
+        }
+    }
     render () {
         return (
             <div>
-                <p>task list</p>
+                {this.state.type == 'A' ? '风控' : '催熟'} 
+                <p>table</p>
             </div>
         )
     }
