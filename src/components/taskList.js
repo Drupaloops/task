@@ -11,7 +11,6 @@ function HOC(WrappedComponent){
             return (
                 <React.Fragment>
                     { super.render() }
-                    1111
                 </React.Fragment>
             )
         }
