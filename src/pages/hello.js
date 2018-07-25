@@ -7,7 +7,6 @@ class Hello extends React.Component {
             <React.Fragment>
                 <h1>task center</h1>
                 <p>123</p>
-                {/* <Group /> */}
                 <TaskList />
             </React.Fragment>
         )
