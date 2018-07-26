@@ -24,7 +24,6 @@ export default class extends React.Component {
         super(props)
         this.state = {
             type: 'A',
-            tableData: 'oo'
         }
     }
     render () {
