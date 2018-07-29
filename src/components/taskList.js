@@ -30,7 +30,7 @@ export default class extends React.Component {
         return (
             <div>
                 {this.state.type == 'A' ? '风控' : '催熟'} 
-                <p>table</p>
+                <p></p>
             </div>
         )
     }
